@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 413c56178ce36c943b61ccda3bccfded
+timeCreated: 1522696644
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Sonic_s_a1
+    100004: Sonic_s_ar
+    100006: Sonic_s_c1
+    100008: Sonic_s_cu
+    100010: Sonic_s_h1
+    100012: Sonic_s_ha
+    100014: Sonic_s_he
+    100016: Sonic_s_l1
+    100018: Sonic_s_le
+    100020: Sonic_s_s1
+    100022: Sonic_s_s2
+    100024: Sonic_s_sh
+    100026: Sonic_s_so
+    100028: Sonic_s_ta
+    400000: //RootNode
+    400002: Sonic_s_a1
+    400004: Sonic_s_ar
+    400006: Sonic_s_c1
+    400008: Sonic_s_cu
+    400010: Sonic_s_h1
+    400012: Sonic_s_ha
+    400014: Sonic_s_he
+    400016: Sonic_s_l1
+    400018: Sonic_s_le
+    400020: Sonic_s_s1
+    400022: Sonic_s_s2
+    400024: Sonic_s_sh
+    400026: Sonic_s_so
+    400028: Sonic_s_ta
+    2100000: Sonic_11
+    2100002: Sonic_09
+    2100004: Sonic_08
+    2100006: Sonic_05
+    2100008: Sonic_03
+    2100010: Sonic_04
+    2100012: Sonic_01
+    2100014: Sonic_02
+    2100016: Sonic_15
+    2100018: Sonic_12
+    2100020: Sonic_14
+    2100022: Sonic_10
+    2100024: Sonic_06
+    2100026: Sonic_07
+    2300000: //RootNode
+    2300002: Sonic_s_a1
+    2300004: Sonic_s_ar
+    2300006: Sonic_s_c1
+    2300008: Sonic_s_cu
+    2300010: Sonic_s_h1
+    2300012: Sonic_s_ha
+    2300014: Sonic_s_he
+    2300016: Sonic_s_l1
+    2300018: Sonic_s_le
+    2300020: Sonic_s_s1
+    2300022: Sonic_s_s2
+    2300024: Sonic_s_sh
+    2300026: Sonic_s_so
+    2300028: Sonic_s_ta
+    3300000: //RootNode
+    3300002: Sonic_s_a1
+    3300004: Sonic_s_ar
+    3300006: Sonic_s_c1
+    3300008: Sonic_s_cu
+    3300010: Sonic_s_h1
+    3300012: Sonic_s_ha
+    3300014: Sonic_s_he
+    3300016: Sonic_s_l1
+    3300018: Sonic_s_le
+    3300020: Sonic_s_s1
+    3300022: Sonic_s_s2
+    3300024: Sonic_s_sh
+    3300026: Sonic_s_so
+    3300028: Sonic_s_ta
+    4300000: Sonic_s_st
+    4300002: Sonic_s_he
+    4300004: Sonic_s_ar
+    4300006: Sonic_s_cu
+    4300008: Sonic_s_ha
+    4300010: Sonic_s_le
+    4300012: Sonic_s_so
+    4300014: Sonic_s_sh
+    4300016: Sonic_s_l1
+    4300018: Sonic_s_s1
+    4300020: Sonic_s_s2
+    4300022: Sonic_s_ta
+    4300024: Sonic_s_a1
+    4300026: Sonic_s_c1
+    4300028: Sonic_s_h1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
