@@ -114,7 +114,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -154,8 +154,107 @@ ModelImporter:
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
-    human: []
-    skeleton: []
+    human:
+    - boneName: Sonic_s_le
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Sonic_s_so
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Sonic_s_sh
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Sonic_Jam_01(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0000000754979, y: 1, z: 6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sonic_s_a1
+      parentName: Sonic_Jam_01(Clone)
+      position: {x: -0, y: 0.14054413, z: 0.2357882}
+      rotation: {x: 0.000000057951937, y: 0.00000006848864, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+    - name: Sonic_s_c1
+      parentName: Sonic_s_a1
+      position: {x: -0.18153542, y: -2.8876456e-15, z: 0}
+      rotation: {x: 9.992005e-16, y: 1.3322677e-15, z: 1.776357e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Sonic_s_h1
+      parentName: Sonic_s_c1
+      position: {x: -0.25068852, y: 2.8876456e-15, z: 0}
+      rotation: {x: 9.992007e-16, y: 1.3322677e-15, z: 1.776357e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Sonic_s_ar
+      parentName: Sonic_Jam_01(Clone)
+      position: {x: 9.777669e-10, y: 0.14054258, z: -0.23579217}
+      rotation: {x: 0.000000057951937, y: 0.00000006848864, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+    - name: Sonic_s_cu
+      parentName: Sonic_s_ar
+      position: {x: -0.18153386, y: 2.8876456e-15, z: 0}
+      rotation: {x: 9.992005e-16, y: 1.3322677e-15, z: 1.776357e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Sonic_s_ha
+      parentName: Sonic_s_cu
+      position: {x: -0.25068852, y: 1.4438228e-15, z: 0}
+      rotation: {x: 9.992007e-16, y: 1.3322677e-15, z: 1.776357e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Sonic_s_he
+      parentName: Sonic_Jam_01(Clone)
+      position: {x: -0.0000000030683083, y: 0.17983241, z: 8.8823626e-10}
+      rotation: {x: 0, y: 0, z: 1, w: 0.0000000754979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sonic_s_l1
+      parentName: Sonic_Jam_01(Clone)
+      position: {x: -0, y: -0.19021396, z: 0.0864108}
+      rotation: {x: 0.000000057951937, y: 0.00000006848864, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+    - name: Sonic_s_s1
+      parentName: Sonic_s_l1
+      position: {x: -0.18693197, y: 0, z: -0.000000006055832}
+      rotation: {x: 9.992005e-16, y: 1.3322677e-15, z: 1.776357e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Sonic_s_s2
+      parentName: Sonic_s_s1
+      position: {x: -0.27407938, y: -2.8876456e-15, z: 0}
+      rotation: {x: -0.000000020893141, y: -0.0000000027506275, z: 0.6087614, w: 0.7933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sonic_s_le
+      parentName: Sonic_Jam_01(Clone)
+      position: {x: 0.0000000012845027, y: -0.19021396, z: -0.08639911}
+      rotation: {x: 0.000000057951937, y: 0.00000006848864, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+    - name: Sonic_s_so
+      parentName: Sonic_s_le
+      position: {x: -0.18692112, y: 0, z: -0.000000006055832}
+      rotation: {x: 9.992005e-16, y: 1.3322677e-15, z: 1.776357e-15, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Sonic_s_sh
+      parentName: Sonic_s_so
+      position: {x: -0.27409023, y: 0, z: 0}
+      rotation: {x: -0.000000020893141, y: -0.0000000027506275, z: 0.6087614, w: 0.7933534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sonic_s_ta
+      parentName: Sonic_Jam_01(Clone)
+      position: {x: -0.075793825, y: -0.17665277, z: 0}
+      rotation: {x: 0, y: 0, z: 0.3826834, w: 0.92387956}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -169,7 +268,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

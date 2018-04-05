@@ -293,6 +293,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CharacterControl.cs" />
+    <Compile Include="Assets\Scripts\Countdown.cs" />
+    <Compile Include="Assets\Scripts\Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
