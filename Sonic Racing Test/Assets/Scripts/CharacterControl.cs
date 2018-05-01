@@ -37,6 +37,8 @@ public class CharacterControl : MonoBehaviour
         jumpSound = sounds[0];
         skidSound = sounds[1];
         anim = transform.Find("SonicModel").GetComponent<Animator>();
+        //Gets the CharacterController component
+        controller = GetComponent<CharacterController>();
     }
 
     /*This is wrapped around every input to allow for 2 player input
@@ -51,9 +53,6 @@ public class CharacterControl : MonoBehaviour
     */
 	void Update ()
     {
-        //Gets the CharacterController component
-        controller = GetComponent<CharacterController>();
-
         //Accelerates if the accelerate button is pressed
         if (name == "P1Player" || name == "SinglePlayer")
         {
@@ -69,9 +68,6 @@ public class CharacterControl : MonoBehaviour
                 speed += accel;
             }
         }
-
-
-
 
         //Clamps the speed so you can't go indefinitely fast
         speed = Mathf.Clamp(speed, -maxSpeed, maxSpeed);
@@ -104,22 +100,22 @@ public class CharacterControl : MonoBehaviour
         //Gets and handles the leaning inputs
         if (name == "P1Player" || name == "SinglePlayer")
         {
-            if (Input.GetButton("P1 Lean Left") && (Input.GetAxis("P1 Horizontal") <= 0))
+            if (Input.GetButton("P1 Lean Left") && (Input.GetAxis("P1 Horizontal") <= 0) && (controller.isGrounded))
             {
                 rotateValue -= ((rotAdd / 50) + 0.5f);
             }
-            else if (Input.GetButton("P1 Lean Right") && (Input.GetAxis("P1 Horizontal") >= 0))
+            else if (Input.GetButton("P1 Lean Right") && (Input.GetAxis("P1 Horizontal") >= 0) && (controller.isGrounded))
             {
                 rotateValue += ((rotAdd / 50) + 0.5f);
             }
         }
         else if (name == "P2Player")
         {
-            if (Input.GetButton("P2 Lean Left") && (Input.GetAxis("P2 Horizontal") <= 0))
+            if (Input.GetButton("P2 Lean Left") && (Input.GetAxis("P2 Horizontal") <= 0) && (controller.isGrounded))
             {
                 rotateValue -= ((rotAdd / 50) + 0.5f);
             }
-            else if (Input.GetButton("P2 Lean Right") && (Input.GetAxis("P2 Horizontal") >= 0))
+            else if (Input.GetButton("P2 Lean Right") && (Input.GetAxis("P2 Horizontal") >= 0) && (controller.isGrounded))
             {
                 rotateValue += ((rotAdd / 50) + 0.5f);
             }
@@ -144,6 +140,7 @@ public class CharacterControl : MonoBehaviour
         //Allows the player to jump
         if (controller.isGrounded)
         {
+            YVel = 0;
             canDoubleJump = true;
             anim.SetBool("jump", false);
             if (name == "P1Player" || name == "SinglePlayer")
@@ -177,7 +174,7 @@ public class CharacterControl : MonoBehaviour
                     YVel = jumpSpeed;
                     jumpSound.Play();
                     anim.SetBool("jump", true);
-                    canDoubleJump = true;
+                    canDoubleJump = false;
                 }
             }
             else if (name == "P2Player")
@@ -187,7 +184,7 @@ public class CharacterControl : MonoBehaviour
                     YVel = jumpSpeed;
                     jumpSound.Play();
                     anim.SetBool("jump", true);
-                    canDoubleJump = true;
+                    canDoubleJump = false;
                 }
             }
         }
